@@ -41,6 +41,8 @@ Create a testbench to test this 4-bit random number generator. In your testbench
 
 The SetMode function meant the flag was armed and changes the value when the flag is pressed and immediently goes to zero, without this the flag would stay high until pressed again.
 
+**VDB FLAG MUST BE WITHIN THE FOR LOOP SETMODE DOESN'T**
+
 We added a Hex display and a vbar display, and set the reset to 1 initally to get the 0001 input to be XOR'd then set it back to zero in the for loop to allow the counter to go up.
 
 <img width="300" alt="Screenshot 2022-11-03 at 10 51 36" src="https://user-images.githubusercontent.com/115703122/199702547-f70c37fc-b867-43b4-bb7b-b6b9530462ae.png">
@@ -50,6 +52,8 @@ This produces a primative polynomial sequence:
 <img width="690" alt="Screenshot 2022-11-03 at 10 59 00" src="https://user-images.githubusercontent.com/115703122/199704077-5b1239fb-8a5d-42c5-ac0a-2a0f34b5a533.png">
 
 OUTPUT:
+
+<img width="458" alt="Screenshot 2022-11-03 at 11 22 14" src="https://user-images.githubusercontent.com/115703122/199708485-83c35326-ae47-4ce6-bb94-90519e8ce4e8.png">
 
 ## STEP 3 -  Create the doit.sh script
 
@@ -61,6 +65,13 @@ Based on the primitive polynomial table in Lecture 4 slide 16, modify lfsr.sv in
 
 <img width="115" alt="Screenshot 2022-11-03 at 11 00 13" src="https://user-images.githubusercontent.com/115703122/199704321-87b876cf-8354-4940-9eb2-cda836fb15f5.png">
 
+Add an additional Hex display for 7 bits:
 
+<img width="341" alt="Screenshot 2022-11-03 at 11 05 21" src="https://user-images.githubusercontent.com/115703122/199705328-5f9abb27-d7bb-499c-b62f-c9d6d0fa10f0.png">
 
+Change the parameters within the system verilator code:
+
+<img width="547" alt="Screenshot 2022-11-03 at 11 19 22" src="https://user-images.githubusercontent.com/115703122/199707891-6f664cea-5eeb-4d9f-9022-445b5f1279bb.png">
+
+<img width="279" alt="Screenshot 2022-11-03 at 11 19 10" src="https://user-images.githubusercontent.com/115703122/199707862-fbf1e064-2f5c-4e19-ae59-7b315b582dfe.png">
 
