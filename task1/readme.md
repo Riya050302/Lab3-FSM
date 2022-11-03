@@ -42,6 +42,7 @@ Create a testbench to test this 4-bit random number generator. In your testbench
 The SetMode function meant the flag was armed and changes the value when the flag is pressed and immediently goes to zero, without this the flag would stay high until pressed again.
 
 **VDB FLAG MUST BE WITHIN THE FOR LOOP SETMODE DOESN'T**
+VdbFlag must be initated each loop whereas the mode is set once at the beginning and then does not change.
 
 We added a Hex display and a vbar display, and set the reset to 1 initally to get the 0001 input to be XOR'd then set it back to zero in the for loop to allow the counter to go up.
 
