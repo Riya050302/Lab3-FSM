@@ -1,4 +1,4 @@
-# Task 3 - - Exploring the clktick.sv and the delay.sv modules
+# Task 3 -  Exploring the clktick.sv and the delay.sv modules
 
 In Lecture 4 slides 9 & 10, you were introduced to the clktick.sv module. The interface signals for this module is:
 
