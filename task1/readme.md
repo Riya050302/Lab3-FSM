@@ -64,7 +64,7 @@ OUTPUT:
 
 The systems behaves as required. Having pressed it up to the fifth light, I continued pressing the rotary encoder switch and obtained the following outputs:
 
-<img width="352" alt="Screenshot 2022-11-04 at 14 06 01" src="https://user-images.githubusercontent.com/115703122/199993295-11c0bec2-da63-4248-a5c0-c1c1d1465f4f.png">
+<img width="338" alt="Screenshot 2022-11-04 at 14 09 31" src="https://user-images.githubusercontent.com/115703122/199995248-99d2690b-56eb-4a65-8590-51be67672950.png">
 
 ## Challenge
 
