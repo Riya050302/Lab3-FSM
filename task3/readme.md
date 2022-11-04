@@ -29,6 +29,10 @@ Implement the following design by combining clkctick.sv with f1_fsm.sv so that t
 
 <img width="537" alt="Screenshot 2022-11-04 at 10 39 37" src="https://user-images.githubusercontent.com/115703122/199953400-6bd22cd6-b061-459a-a61c-1965e54a017c.png">
 
+I began by creating a top level module to link clktick and f1:
+
+I then editted the inital values of the testbench from the f1 testbench:
+
 
 
 
