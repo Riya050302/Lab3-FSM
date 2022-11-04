@@ -21,4 +21,14 @@ OUTPUT:
 
 Used metronome app to compare seconds to vbdValue input, the Vdbvalue 24 gave 60 beats per minute. The VdValue was not the same as real time this is because every computer will work at different rate and therefore takes different amount of time to simulate one cycle of the clock signal clk. 
 
-pic
+
+
+## Challenge 
+
+Implement the following design by combining clkctick.sv with f1_fsm.sv so that the F1 light sequence is cycle through automatically with 1 second delay per state transition:
+
+<img width="537" alt="Screenshot 2022-11-04 at 10 39 37" src="https://user-images.githubusercontent.com/115703122/199953400-6bd22cd6-b061-459a-a61c-1965e54a017c.png">
+
+
+
+
