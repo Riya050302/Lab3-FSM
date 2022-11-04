@@ -12,7 +12,7 @@
 
 ## Step 1 - create the component lfsr.sv
 
-Open the Lab3-FSM folder in VS code. In folder task1, create the component lfsr.sv guided by Lecture 4 slide 14. Modify the version in the lecture notes to include an extra enable signal en, and all four bits of the shift register output are brought out as data_out[3:0]. This is your top-level circuit for this task.
+Having gotten it up to 4'b1001 = 9, I pressed the encoder button three more times:
 
 <img width="502" alt="Screenshot 2022-11-02 at 23 40 06" src="https://user-images.githubusercontent.com/115703122/199622356-8fcb8e0f-c594-4d2f-b06d-e2c0cd939c65.png">
 
