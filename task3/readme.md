@@ -23,7 +23,7 @@ The output tick has to be declared as reg because its value is updated inside th
 
 **Clktick_tb.cpp:**
 
-
+<img width="321" alt="Screenshot 2022-11-04 at 13 48 03" src="https://user-images.githubusercontent.com/115703122/199988019-c8e6e851-0695-4483-a8ba-0509b6979675.png">
 
 **Clktick.sh:**
 
@@ -44,8 +44,11 @@ Implement the following design by combining clkctick.sv with f1_fsm.sv so that t
 
 I began by creating a top level module to link clktick and f1:
 
+<img width="515" alt="Screenshot 2022-11-04 at 13 48 46" src="https://user-images.githubusercontent.com/115703122/199988188-7833db15-7507-4e71-beb9-bd45afb1fff1.png">
+
 I then editted the inital values of the testbench from the f1 testbench:
 
+<img width="338" alt="Screenshot 2022-11-04 at 13 49 05" src="https://user-images.githubusercontent.com/115703122/199988251-9a00cbe2-d95e-461c-9da9-0110a7ec3856.png">
 
 OUTPUT:
 
