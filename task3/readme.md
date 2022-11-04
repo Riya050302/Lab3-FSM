@@ -27,11 +27,13 @@ The output tick has to be declared as reg because its value is updated inside th
 
 **Clktick.sh:**
 
+<img width="626" alt="Screenshot 2022-11-04 at 12 34 38" src="https://user-images.githubusercontent.com/115703122/199973810-4f8b04c8-b6bd-4943-a45f-de8ea991d8f7.png">
 
 **OUTPUT:**
 
 Used metronome app to compare seconds to vbdValue input, the Vdbvalue 24 gave 60 beats per minute. The VdValue was not the same as real time this is because every computer will work at different rate and therefore takes different amount of time to simulate one cycle of the clock signal clk. 
 
+<img width="335" alt="Screenshot 2022-11-04 at 12 36 29" src="https://user-images.githubusercontent.com/115703122/199974123-0279b990-3d90-4074-a345-284562c25b1a.png">
 
 
 ## Challenge 
@@ -45,5 +47,10 @@ I began by creating a top level module to link clktick and f1:
 I then editted the inital values of the testbench from the f1 testbench:
 
 
+OUTPUT:
+
+<img width="306" alt="Screenshot 2022-11-04 at 12 36 41" src="https://user-images.githubusercontent.com/115703122/199974159-6496b749-ba9c-4cc3-80c0-72b135c5fbe5.png">
+
+The ouput was an f1 light sequence that increased the light every second with the speed of the light change controlled by VdbValue().
 
 
