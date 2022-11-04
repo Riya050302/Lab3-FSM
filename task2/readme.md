@@ -10,3 +10,12 @@ Implement this state machine in SystemVerilog to drive the neopixel bar and cycl
 
 <img width="648" alt="Screenshot 2022-11-03 at 11 24 52" src="https://user-images.githubusercontent.com/115703122/199708923-01468124-a016-4f85-9678-b20db49d8ae6.png">
 
+**Creating F1.sv file**
+
+I began by creating a FSM module that switches between 2 states:
+
+<img width="637" alt="Screenshot 2022-11-03 at 11 49 51" src="https://user-images.githubusercontent.com/115703122/199713332-dd5bbf53-01e3-4f2b-9856-33d4740c141f.png">
+
+
+
+
