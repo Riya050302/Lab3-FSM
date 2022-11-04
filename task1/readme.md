@@ -60,6 +60,12 @@ OUTPUT:
 
 <img width="601" alt="Screenshot 2022-11-03 at 10 59 50" src="https://user-images.githubusercontent.com/115703122/199704248-ca8bed30-bb14-4ef6-b6eb-2a0bb7d0a449.png">
 
+OUTPUT:
+
+The systems behaves as required. Having pressed it up to the fifth light, I continued pressing the rotary encoder switch and obtained the following outputs:
+
+<img width="352" alt="Screenshot 2022-11-04 at 14 06 01" src="https://user-images.githubusercontent.com/115703122/199993295-11c0bec2-da63-4248-a5c0-c1c1d1465f4f.png">
+
 ## Challenge
 
 Based on the primitive polynomial table in Lecture 4 slide 16, modify lfsr.sv into a 7-bit (instead of 4-bit) PRBS generator. Test your design. The 7th order primitive polynomial is:
